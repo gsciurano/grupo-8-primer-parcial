@@ -1,0 +1,133 @@
+*{
+        font-family: Arial, Helvetica, sans-serif;
+   }
+   body{
+       background-color: antiquewhite;
+   
+   }
+   header{
+       width: 100%;
+       height: 200px;
+       background-color: rgb(255, 255, 255);
+       margin: 0px;
+   
+   }
+   footer{
+        width: 95%;
+        height: 50px;
+        background-color: rgb(241, 241, 241);
+        text-align: center;
+        padding: 20px;
+        margin: 20px;
+   }
+   
+   nav{
+       width: 100%;
+       background-color: rgb(255, 255, 255); 
+       list-style-type: none;
+       text-align: center;
+       margin: 0;
+       padding: 0;
+   }
+   
+   .contenedor-div{
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: center;
+       align-content: center;
+       font-size: 30px;
+        
+   }
+   .contenedor-div a{
+        padding-bottom: 50px;
+        padding-inline-start: 20px;
+        text-decoration: none;
+        color: black;
+    }
+    .contenedor-div a:hover{
+        color: rgb(0, 83, 238);
+    }
+
+   
+   .contenedorflex .cajaintegrante a:hover {
+       color:rgb(5, 5, 5);
+    }
+   
+   .TituloPrincipal{
+        text-align: center;
+        background-color:rgb(255, 255, 255);
+        width: 100%;
+        border-radius: 80px;
+
+   }
+   .contenedor{
+       width: 100%;
+       
+       text-align: center;
+    
+   }
+   
+   .imgpresentacion{
+       width: 50%;
+       
+       border-radius: 20px;
+       box-shadow: 10px 10px 5px rgb(6, 166, 240);
+   }
+   
+   .TituloPagina{
+       text-align: center;
+       background-color: rgb(13, 160, 201);
+       color: rgba(21, 8, 8, 0.922);
+   }
+   
+   .contenedorflex{
+       display: flex;
+       flex-direction: wrap;
+       justify-content: space-between;
+   }
+   
+   .cajaintegrante{
+       background-color: rgb(255, 255, 255);
+       width: 300px;
+       margin: 20px;
+       
+       padding: 10px;
+       border-radius: 20px;
+       box-shadow:10px 10px 5px rgb(194, 195, 195);
+       text-align: center;
+   
+   }
+   .contenedorflex .cajaintegrante img{
+        width: 100%;
+
+        box-sizing: border-box;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+   }
+       
+   .NombreIntegrante{
+    
+       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       font-size: larger;
+       color:rgb(0, 140, 255);
+       text-align: center;align-items: center;
+       
+   }
+
+   .contenedor-contacto{
+    padding-left: 30px;
+   }
+   @media screen and (max-width:800px) {
+        body{
+            display: flex;
+            flex-direction: column;
+        }
+        .contenedorflex{
+            display: flex;
+            flex-direction: column;
+        }
+        .contenedor-div{
+            display: flex;
+            flex-direction: column;
+        }
+   }

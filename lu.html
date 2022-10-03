@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uade Voyage</title>
+    <style>
+        .div{
+            display: flex;
+            flex-direction: column;
+            background-color: antiquewhite;
+        }
+        
+        .megacontenedor{
+            display: flex;
+            flex-direction: row;
+
+        }
+        .contenedor{
+            width: auto;
+            height: px;
+
+            padding-top: 10px;
+            display: flex;
+            flex-direction: row;
+        }
+        .contenedor-data{
+            width: 400px;
+            height: 300px;
+            
+            display: flex;
+            flex-direction: column;
+            padding-left: 50px;
+            font-size: 20px;
+            border-radius: 20px;
+            background-color: aliceblue;
+            text-align: justify;
+        }
+        .contenedor img {
+            width: 300px;
+            height: 300px;
+            border-radius: 30px;
+        }
+        .contenedor-data ul{
+            font-size: 25px;
+            font-family: sans-serif;
+            text-decoration: underline;
+        }
+
+        @media screen and (max-width:800px) {
+            body{
+                display: flex;
+                flex-direction: column;
+            }
+            .megacontenedor{
+                display: flex;
+                flex-direction: column;
+            }
+        }
+
+    </style>
+<body>
+        <div class="div">
+            <h2>Grupó 8</h2>
+            <h1>Luciano Reinoso</h1>
+        </div>
+    <div class="megacontenedor">   
+        <div class="contenedor">
+            <img src="Img/fotolu.jpg" class="img">
+        </div>
+        <div class="contenedor-data">
+            <ul>Conocimientos</ul>
+                <li>"Ingles intermedio"</li>
+            <ul>Hobbies</ul>
+                <li>Videojuegos</li>
+                
+            <a href="mailto:lreinosorivas@uade.edu.ar"> lreinosorivas@uade.edu.ar</a>
+        </div>
+    </div>
+</body>
+</html>

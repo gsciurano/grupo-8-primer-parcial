@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uade Voyage</title>
+    <style>
+        .div{
+            display: flex;
+            flex-direction: column;
+            background-color: antiquewhite;
+        }
+        .contenedor{
+            width: auto;
+            height: 600px;
+
+            padding-top: 100px;
+            display: flex;
+            flex-direction: row;
+        }
+        .contenedor-data{
+            width: 400px;
+            height: 400px;
+            
+            display: flex;
+            flex-direction: column;
+            padding-left: 50px;
+            font-size: 20px;
+            border-radius: 20px;
+            background-color: aliceblue;
+            text-align: justify;
+        }
+        .contenedor img {
+            width: 300px;
+            height: 300px;
+            border-radius: 30px;
+        }
+        .contenedor-data ul{
+            font-size: 25px;
+            font-family: sans-serif;
+            text-decoration: underline;
+        }
+
+        @media screen and (max-width:800px) {
+            body{
+                display: flex;
+                flex-direction: column;
+            }
+            .contenedor{
+                display: flex;
+                flex-direction: column;
+            }
+        }
+
+    </style>
+<body>
+    <div class="div">
+        <h2>Grupó 8</h2>
+        <h1>Geronimo Sciurano</h1>
+    </div>
+    <div class="contenedor">
+        <img src="Img/fotogero.jpg" class="img">
+        <div class="contenedor-data">
+            <h2>Conocimientos</h2>
+                <li>Excel</li>
+                <li>Word</li>
+                <li>Python</li>
+                <li>Adobe Premiere Pro</li>
+            <h2>Hobbies</h2>
+                <li>Rugby</li>
+                <li>Entrenar</li>
+                <li>Futbol</li>
+    </div>
+
+    
+</body>
+</html>
